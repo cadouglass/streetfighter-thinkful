@@ -59,3 +59,21 @@ body {
 	left: 535px;
 	float: left;
 }
+
+.instructions {
+	display: block;
+	position: absolute;
+	width: 600px;
+	left: 700px;
+	font-family: PT Sans;
+}
+
+.instructions p {
+	width: 50%;
+	line-height: 45px;
+	font-size: 45px;
+}
+
+.instructions p + p {
+	margin-left: 275px;
+}
